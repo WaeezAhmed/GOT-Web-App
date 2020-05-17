@@ -36,7 +36,7 @@ const ResultCard = (props) => {
                     {name}
                 </Typography>
                 <Typography className={classes.title} color="textSecondary" gutterBottom align="center">
-                    {location} {bull} {region} {bull} {battle_type}
+                    {location} {bull} {region}. {bull} {battle_type}
                 </Typography>
                 
                 <Typography className={classes.pos} color="textPrimary" align="center">
